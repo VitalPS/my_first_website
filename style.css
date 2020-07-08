@@ -1,0 +1,124 @@
+body {
+  background: rgb(0, 0, 0);
+  font-family: arial;
+}
+
+.box_1 {
+  background: url(pictures/background.png);
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 30px;
+}
+
+.menu {
+  color: rgb(255, 255, 255);
+  text-align: right;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.links_menu {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.links_menu:hover {
+  color:rgb(108, 106, 139);
+  font-weight: bold;
+}
+
+.name {
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+}
+
+.description {
+  color: rgb(255, 255, 255);
+}
+
+.picture {
+  padding-top: 20px;
+  height: 150px;
+  border-radius: 100px;
+}
+
+.box_2 {
+  background: rgb(108, 106, 139);
+  padding-top: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.skills_title {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+}
+
+.feature_boxes {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.features {
+  width: 300px;
+  background: rgb(255, 255, 255);
+  border-radius: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+}
+
+.feature_img {
+  padding: 20px;
+}
+
+.feature_title {
+  padding-top: 5px;
+  padding-bottom: 30px;
+}
+
+.box_3 {
+  background: url(pictures/background.png);
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.title_contact {
+  color: white;
+  padding: 40px;
+}
+
+.contact_wwp {
+  background: green;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.contact_wwp:hover {
+  background: rgba(0, 128, 0, 0.651);
+  font-size: 17px;
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact_text {
+  color: rgb(255, 255, 255);
+  padding-top: 40px;
+}
+
+.links_contact {
+  text-decoration: none;
+  color: rgb(108, 106, 139);
+}
+
+.links_contact:hover {
+  font-weight: bold;
+}
